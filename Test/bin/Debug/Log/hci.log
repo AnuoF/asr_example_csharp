@@ -1,0 +1,467 @@
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=47,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":40,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":67,"ngx":-1,"svc":19,"spl":1,"spc":1,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":41,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":59,"ngx":-1,"svc":4,"spl":0,"spc":4,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=48,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=49,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":39,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":63,"cnt":63,"cuz":1236,"cdz":227,"snt":86,"ngx":-1,"svc":19,"spl":0,"spc":9,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=50,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":42,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":62,"cnt":62,"cuz":1236,"cdz":227,"snt":71,"ngx":-1,"svc":12,"spl":0,"spc":5,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":43,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":46,"cnt":46,"cuz":1236,"cdz":227,"snt":62,"ngx":-1,"svc":5,"spl":0,"spc":7,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=51,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":44,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":31,"cnt":31,"cuz":1236,"cdz":227,"snt":66,"ngx":-1,"svc":9,"spl":0,"spc":11,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=52,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=53,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":45,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":69,"ngx":-1,"svc":8,"spl":1,"spc":3,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=54,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":46,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":63,"cnt":63,"cuz":1236,"cdz":227,"snt":72,"ngx":-1,"svc":5,"spl":1,"spc":6,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":47,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":64,"ngx":-1,"svc":6,"spl":2,"spc":8,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=55,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=56,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":49,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":58,"ngx":-1,"svc":6,"spl":1,"spc":2,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":48,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":66,"ngx":-1,"svc":7,"spl":0,"spc":10,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=57,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":50,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":61,"ngx":-1,"svc":11,"spl":0,"spc":5,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=58,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":51,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":63,"ngx":-1,"svc":6,"spl":0,"spc":7,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=59,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=60,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=61,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 12800
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":53,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":46,"cnt":46,"cuz":1236,"cdz":227,"snt":70,"ngx":-1,"svc":10,"spl":0,"spc":3,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":54,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":46,"cnt":46,"cuz":1236,"cdz":227,"snt":62,"ngx":-1,"svc":5,"spl":0,"spc":6,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=62,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][RealTimeTaskMachine::GetTask] The request audio size : 5120
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=63,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Enter
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][EncodeMachine::AppendEncodeStream]Leave
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-app-key:745d54a7
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-sdk-version:8.1.0.29683
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-tid:297274238
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-eid:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-userid:
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-call-type:0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-request-date:2019-03-01 15:09:16
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-session-key:49364d8fd8ea6bd2865f2e2ff4d02b42
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] x-task-config:addpunc=no,audioformat=speex,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,identify=0:745d54a7:3:f48e38a163e1bfebfbff000506e3:8100,index=-64,nettimeout=8,realtime=yes,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7704) DEBUG   [jtcommon][CurlConcurrencyHttp::PerformPost] PerformPost url:http://139.159.133.255:8880/asr/recognise
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":52,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":62,"cnt":62,"cuz":1236,"cdz":227,"snt":89,"ngx":-1,"svc":15,"spl":0,"spc":11,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":55,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":63,"cnt":63,"cuz":1236,"cdz":227,"snt":76,"ngx":-1,"svc":19,"spl":0,"spc":10,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":56,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":63,"cnt":63,"cuz":1236,"cdz":227,"snt":68,"ngx":-1,"svc":19,"spl":0,"spc":2,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":57,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":60,"ngx":-1,"svc":6,"spl":0,"spc":5,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":58,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":64,"ngx":-1,"svc":6,"spl":0,"spc":8,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":59,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":63,"cnt":63,"cuz":1236,"cdz":227,"snt":76,"ngx":-1,"svc":8,"spl":1,"spc":11,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":60,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":63,"cnt":63,"cuz":1236,"cdz":227,"snt":68,"ngx":-1,"svc":10,"spl":0,"spc":3,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":61,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":47,"cnt":47,"cuz":1236,"cdz":227,"snt":63,"ngx":-1,"svc":7,"spl":0,"spc":6,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":63,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":46,"cnt":46,"cuz":504,"cdz":227,"snt":71,"ngx":-1,"svc":11,"spl":0,"spc":5,"stc":1}
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>InProgress</ResCode><ResMessage>expect more chunk</ResMessage><ErrorNo>2007</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token></ResponseInfo>]
+2019-03-01 15:09:16 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":-64,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":46,"cnt":46,"cuz":0,"cdz":227,"snt":71,"ngx":-1,"svc":10,"spl":0,"spc":5,"stc":1}
+2019-03-01 15:09:24 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 28
+2019-03-01 15:09:24 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":62,"chc":0,"cds":0,"ccn":0,"cpt":0,"cst":0,"cnt":7987,"cuz":1236,"cdz":0,"snt":8035,"ngx":-1,"svc":6,"spl":1,"spc":9,"stc":1}
+2019-03-01 15:09:24 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] index [62]curl return(12) but try times(1)< maxtry(2)
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] http request curl perform return 0
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 7988) DEBUG   [hci_asr_cloud][AsrCloudEngine::CallBackAsynchHttpResponse] http response[<?xml version="1.0" encoding="UTF-8"?><ResponseInfo><ResCode>Success</ResCode><ResMessage>Success</ResMessage><ErrorNo>0</ErrorNo><Result_Token>2_417_20_68215_20190301150259_1710780</Result_Token><ResultCount>1</ResultCount><Result><Text>所以当时吃到真正带有黄瓜味的这种黄瓜以后我们也邀请了村上的一些干部啊啊还有我们派出单位的一些同志和我们一起来品尝后大家就说能够真正吃到了以后这种真正意义上的有机蔬菜对大家就说又敢于地回到了我们曾经的过去的那个年代我们想起了自己的小时候</Text><Score>2529</Score></Result></ResponseInfo>]
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 7988) DEBUG   [jtcommon][CurlConcurrencyHttp::remove_multi_handle] ACCESS_TIME:{"tkn":"2_417_20_68215_20190301150259_1710780","idx":62,"chc":200,"cds":0,"ccn":0,"cpt":0,"cst":234,"cnt":234,"cuz":1236,"cdz":639,"snt":8283,"ngx":-1,"svc":210,"spl":1,"spc":8035,"stc":2}
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RealTimeRecogEnd]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RecogVoiceRealTime]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRecog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][asr_tool::CopyRecogResult]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][asr_tool::CopyRecogResult]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrFreeRecogResult]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][asr_tool::FreeRecogResult]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][asr_tool::FreeRecogResult]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrFreeRecogResult]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) INFO    [HCI_ASR][AsrSdk::RecogSingleChannel] SUCCESS
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSdk::Recog] AsrSdk::Recog(0, 0x0, 0) use_time:8744 ret:0
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) INFO    [HCI_ASR][AsrSdk::FreeRecogResult] SUCCESS
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog] hci_asr_recog config [addpunc=no,audioformat=pcm16k16bit,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,encode=speex,isfile=no,maxseconds=30,needcontent=yes,nettimeout=8,realtime=yes,requesturl=http://139.159.133.255:8880/asr,sessionid=0,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10]
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRecog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::Recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RecogVoiceRealTime]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RealTimeRecogBegin]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::Start]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::~DetectWaviSpeakVad]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::release]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::release]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::~DetectWaviSpeakVad]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWav::~DetectWav]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWav::~DetectWav]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWav::DetectWav]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWav::DetectWav]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::init]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VADHandler::Init] VADHandler::Init(16000, 500, 500, 30000) Enter
+
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::init]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::Start]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RealTimeRecogBegin]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::ProcessRealTimeTask]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::GetRecogVoiceForRealTime] realtime recog
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::GetRecogVoiceForRealTime] voice check flag:1
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::AppendVoice]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VADHandler::AdjustVADResultToSegments] iSpeakVADResult:(0/1) stauts:0 pos:0
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::AppendVoice]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::GetRecogVoiceForRealTime] VoiceCheck return datalen=0
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::ProcessRealTimeTask]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RecogVoiceRealTime]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRecog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) INFO    [HCI_ASR][AsrSdk::RecogSingleChannel] PROGRESS(211:ASR RealTime Waiting)
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog] hci_asr_recog config [addpunc=no,audioformat=pcm16k16bit,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,encode=speex,isfile=no,maxseconds=30,needcontent=yes,nettimeout=8,realtime=yes,requesturl=http://139.159.133.255:8880/asr,sessionid=0,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10]
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRecog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::Recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RecogVoiceRealTime]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::ProcessRealTimeTask]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::GetRecogVoiceForRealTime] realtime recog
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::GetRecogVoiceForRealTime] voice check flag:1
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::AppendVoice]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VADHandler::AdjustVADResultToSegments] iSpeakVADResult:(0/2) stauts:1 pos:0
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VADHandler::AdjustVADResultToSegments] iSpeakVADResult:(1/2) stauts:0 pos:3200
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::AppendVoice]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::GetRecogVoiceForRealTime] VoiceCheck return datalen=0
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::ProcessRealTimeTask]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RecogVoiceRealTime]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRecog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) INFO    [HCI_ASR][AsrSdk::RecogSingleChannel] PROGRESS(211:ASR RealTime Waiting)
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog] hci_asr_recog config [addpunc=no,audioformat=pcm16k16bit,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,encode=speex,isfile=no,maxseconds=30,needcontent=yes,nettimeout=8,realtime=yes,requesturl=http://139.159.133.255:8880/asr,sessionid=0,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10]
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRecog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::Recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RecogVoiceRealTime]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::ProcessRealTimeTask]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::GetRecogVoiceForRealTime] realtime recog
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::GetRecogVoiceForRealTime] voice check flag:1
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::AppendVoice]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VADHandler::AdjustVADResultToSegments] iSpeakVADResult:(0/1) stauts:0 pos:3840
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::AppendVoice]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::GetRecogVoiceForRealTime] VoiceCheck return datalen=0
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrAsyncRecogInterface::ProcessRealTimeTask]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RecogVoiceRealTime]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRecog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) INFO    [HCI_ASR][AsrSdk::RecogSingleChannel] PROGRESS(211:ASR RealTime Waiting)
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSdk::Recog] AsrSdk::Recog(0, 0x0, 0)
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog] hci_asr_recog config [addpunc=no,audioformat=pcm16k16bit,candnum=10,capkey=asr.cloud.freetalk,context=yes,dialogmode=freetalk,encode=speex,isfile=no,maxseconds=30,needcontent=yes,nettimeout=8,realtime=yes,requesturl=http://139.159.133.255:8880/asr,sessionid=0,vadhead=10000,vadmode=engine,vadseg=500,vadswitch=yes,vadtail=500,vadthreshold=10]
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRecog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::Recog]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RecogVoiceRealTime]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::CancelTask]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RealTimeRecogEnd]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RealTimeRecogEnd]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::CancelTask]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::RecogVoiceRealTime]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRecog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) INFO    [HCI_ASR][AsrSdk::RecogSingleChannel] SUCCESS
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSdk::Recog] AsrSdk::Recog(0, 0x0, 0) use_time:11 ret:0
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_recog]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) INFO    [HCI_ASR][AsrSdk::FreeRecogResult] SUCCESS
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_session_stop]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSdk::StopSession]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSdk::StopSessionSingleChannel]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Stop]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrStopSession]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::StopSession]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 7704) DEBUG   [HCI_ASR][AsyncTaskMachine::AsyncThreadFunc]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][AsrCloudEngine::StopSession]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [jtcommon][CurlHttp::~CurlHttp] CurlHttp dtor, addr = 0xb5be4e8
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::~VadDetecter]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::~DetectWaviSpeakVad]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::release]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::release]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWaviSpeakVad::~DetectWaviSpeakVad]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWav::~DetectWav]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][DetectWav::~DetectWav]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::~VadDetecter]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrStopSession]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSession::Stop]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::~VadDetecter]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][VadDetecter::~VadDetecter]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [jtcommon][SessionInterface::~SessionInterface]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [jtcommon][SessionInterface::~SessionInterface]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) INFO    [HCI_ASR][AsrSdk::StopSessionSingleChannel] SUCCESS
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSdk::StopSessionSingleChannel]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSdk::StopSession]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_session_stop]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_release]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [jtcommon][IDllInterface::UnLoad]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRelease]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [hci_asr_cloud][HciAsrRelease]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [jtcommon][IDllInterface::UnLoad]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) INFO    [HCI_ASR][AsrSdk::Release] SUCCESS
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSdk::~AsrSdk]Enter
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][AsrSdk::~AsrSdk]Leave
+2019-03-01 15:09:25 Test.vshost.exe( 9740: 8100) DEBUG   [HCI_ASR][hci_asr_release]Leave

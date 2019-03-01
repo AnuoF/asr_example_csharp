@@ -1,0 +1,291 @@
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [HCI_SYS][HciAuth::Init] ______ StartLog Success ______
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [HCI_SYS][HciAuth::Init] ParseConfig Success
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [HCI_SYS][HciAuth::Init] eUdidType:-1
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CUserInfo::Load]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][hci_get_udid]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][get_win_mac_address]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][get_win_mac_address]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][hci_get_udid]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CUserInfo::ReBuild] update udid type:0 udid:f48e38a163e1bfebfbff000506e3
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CUserInfo::WriteUserInfo]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CUserInfo::WriteUserInfo]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CUserInfo::Load]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCount]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE) failed and errno=2
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) WARNING [HCI_SYS][HciAuth::ReadMaxSessionCount] failed to open file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE
+
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCount]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCountBatch]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE_BATCH) failed and errno=2
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) WARNING [HCI_SYS][HciAuth::ReadMaxSessionCountBatch] failed to open file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE_BATCH
+
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCountBatch]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [HCI_SYS][HciAuth::Init] max_session_count:2
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_AUTH) failed and errno=2
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) WARNING [HCI_SYS][CBasicAuth::LoadFromFile] failed to open basic_auth file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_AUTH
+
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_AUTH_FOREVER) failed and errno=2
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) WARNING [HCI_SYS][CBasicAuth::LoadFromFile] failed to open basic_auth file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_AUTH_FOREVER
+
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_BASIC_AUTH) failed and errno=2
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) WARNING [HCI_SYS][CBasicAuth::LoadFromFile] failed to open basic_auth file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_BASIC_AUTH
+
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_APP_FILE) failed and errno=2
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][HciAuth::CheckAuth]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0xa98eab4
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CheckAuthAction::DoProcess]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CheckAuthAction::CheckAuth]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::CurlInit] curl easy init, handle = 0x6ce2c78
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::ShareDNSHandle] libcurl version:libcurl/7.37.0 zlib/1.2.8 c-ares/1.11.0
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][curl_share_handle] libcurl version:libcurl/7.37.0 zlib/1.2.8 c-ares/1.11.0
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] http url:api.hcicloud.com:8888/CheckAuth
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] header:x-app-key:745d54a7
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] header:x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] header:x-sdk-version:8.1.0.29683
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] header:x-tid:
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] header:x-eid:
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] header:x-userid:
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] header:x-call-type:0
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] header:x-request-date:2019-03-01 14:04:05
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] header:x-session-key:cc966b003c83a4dde0fff757f81b52cf
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::Post] curl slist init, list = 0x6ceb5c0
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi init, handle = 0x6ceb760
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::MultiPerfrom] ACCESS_TIME:{"tkn":"curlhttp","idx":-1,"chc":200,"cds":312,"ccn":359,"cpt":359,"cst":499,"cnt":499,"cuz":374,"cdz":3405,"snt":502,"ngx":0,"svc":74,"spl":502,"spc":502,"stc":0}
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi clean up, handle = 0x6ceb760
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl easy clean up, handle = 0x6ce2c78
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl slist free all, list = 0x6ceb5c0
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CheckAuthAction::CheckAuth] http response xml[<?xml version="1.0"?>
+<response_info><res_code>0</res_code><res_message>Auth Success</res_message><tx_server_address_type>production</tx_server_address_type><tx_txd>0</tx_txd><tx_eid>0</tx_eid><tx_need_push>2</tx_need_push><auth_len>3768</auth_len></response_info>
+Ñ+z;;ã¢¥√t+øÜ≠ı⁄≤ﬁ[üΩãK6òOãM˘G&I™ï=l9K4KHl≈q–‹3H¯E7„øoë∫oê”–k˘Ô¥)™Ω€ÔÑöHAµ9π‹≠âŒ«ı=Ó^&@´W˙œÕågz*Ñ‚Ñ•]√›8Ku@”Æ∫2]Vv*Á¨≤®É%±]$KÎ'¿0Î47“É∞µÌT\…¶˛ƒ∆7K?Ï∞«§¨Æ2&Nı=Ó^&@´Y,gãBªç£"É≠ƒÍ[£s&ìXnƒGø±Ø∆Ôé0ë÷
+eÂ·sËˆ|g≠•]
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CBasicAuth::LoadFromBuff] sKay_first[0:f48e38a163e1bfebfbff000506e3#889f9c04b9a7dc6c531c0f92dd3834cb#745d54a7]
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CUserInfo::Storage]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CUserInfo::WriteUserInfo]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CUserInfo::WriteUserInfo]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CUserInfo::Storage]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][HciAuth::UpdateCloudAuth]Enter
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][HciAuth::UpdateCloudAuth]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CheckAuthAction::CheckAuth]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][CheckAuthAction::DoProcess]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) INFO    [HCI_SYS][HciAuth::CheckAuth] SUCCESS
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::~CurlHttp] CurlHttp dtor, addr = 0xa98eab4
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][HciAuth::CheckAuth]Leave
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0x503064c
+2019-03-01 14:04:05 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][UploadDataInterFace::StartUpload]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224:10064) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/USER_CUSTOM_HIS) failed and errno=2
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [HCI_SYS][HciAuth::TxSettingThreadFunc]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0x4fb1238
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][HciAuth::CheckAuthThreadFunc]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_TX_SETTING) failed and errno=2
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CBasicAuth::IsExpire]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) ERROR   [HCI_SYS][TxSetting::LoadFromFile] HCI_TX_SETTING IsValid false
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CBasicAuth::IsExpire]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][UploadDataInterFace::StartUpload]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CUserInfo::IsNeedRegister] true,(1551420245,1
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][HciAuth::Register]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CheckAuthAction::DoProcess]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CheckAuthAction::CheckAuth]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 7524) DEBUG   [HCI_SYS][UploadDataInterFace::UploadThreadFunc]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224:10064) INFO    [HCI_SYS][HciAuth::Init] SUCCESS
+2019-03-01 14:04:06 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][HciAuth::Init]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224:10064) DEBUG   [HCI_SYS][hci_init]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0xe2dfe24
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::CurlInit] curl easy init, handle = 0x6ce2c78
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::Post] http url:http://conf.open.tianxing.com:13000
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::Post] header:appKey:745d54a7
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::Post] header:nonceStr:2019-03-01 14:04:06
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::Post] header:sessionKey:b66beaca1f4a7fb96285ad22dc61e3d1
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::Post] curl slist init, list = 0xc4d18f8
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::CurlInit] curl easy init, handle = 0xc4d1ea0
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] http url:api.hcicloud.com:8888/Register
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] header:x-app-key:745d54a7
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] header:x-udid:0:f48e38a163e1bfebfbff000506e3
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] header:x-sdk-version:8.1.0.29683
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] header:x-tid:0
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] header:x-eid:0
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] header:x-userid:
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] header:x-call-type:0
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] header:x-request-date:2019-03-01 14:04:06
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] header:x-session-key:b66beaca1f4a7fb96285ad22dc61e3d1
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::Post] curl slist init, list = 0xc4d1988
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::CurlInit] curl easy init, handle = 0xc4da6a0
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::Post] http url:http://conf.open.tianxing.com:10000
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::Post] header:appKey:745d54a7
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::Post] header:nonceStr:2019-03-01 14:04:06
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::Post] header:sessionKey:b66beaca1f4a7fb96285ad22dc61e3d1
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::Post] curl slist init, list = 0xc4d1a48
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi init, handle = 0xc4e2f08
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi init, handle = 0xc4b9348
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi init, handle = 0xc4ba240
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::MultiPerfrom] ACCESS_TIME:{"tkn":"curlhttp","idx":-1,"chc":200,"cds":0,"ccn":63,"cpt":63,"cst":359,"cnt":359,"cuz":374,"cdz":160,"snt":361,"ngx":0,"svc":217,"spl":361,"spc":361,"stc":0}
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi clean up, handle = 0xc4b9348
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl easy clean up, handle = 0xc4d1ea0
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl slist free all, list = 0xc4d1988
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CheckAuthAction::CheckAuth] http response xml[<?xml version="1.0"?>
+<response_info><res_code>0</res_code><res_message>Auth Success</res_message><tx_server_address_type>production</tx_server_address_type><tx_txd>0</tx_txd><tx_eid>0</tx_eid><tx_need_push>2</tx_need_push></response_info>
+]
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CUserInfo::Storage]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CUserInfo::WriteUserInfo]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CUserInfo::WriteUserInfo]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CUserInfo::Storage]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CheckAuthAction::CheckAuth]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CheckAuthAction::DoProcess]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][HciAuth::Register]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) INFO    [HCI_SYS][HciAuth::UpdateLocalAuth] read basic auth
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_AUTH_FOREVER) failed and errno=2
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) WARNING [HCI_SYS][CBasicAuth::LoadFromFile] failed to open basic_auth file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_AUTH_FOREVER
+
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_BASIC_AUTH) failed and errno=2
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) WARNING [HCI_SYS][CBasicAuth::LoadFromFile] failed to open basic_auth file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_BASIC_AUTH
+
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6416) WARNING [HCI_SYS][HciAuth::UpdateLocalAuth] read basic auth failed
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::MultiPerfrom] ACCESS_TIME:{"tkn":"curlhttp","idx":-1,"chc":200,"cds":406,"ccn":468,"cpt":468,"cst":531,"cnt":531,"cuz":135,"cdz":175,"snt":529,"ngx":0,"svc":0,"spl":529,"spc":529,"stc":0}
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi clean up, handle = 0xc4e2f08
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl easy clean up, handle = 0x6ce2c78
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl slist free all, list = 0xc4d18f8
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) WARNING [HCI_SYS][TxSetting::LoadFromString] get json(data) failed
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 6400) DEBUG   [HCI_SYS][TxSetting::LoadFromNet] response({"timestamp": 1551420246001, "cmdid": 5041, "apiVersion": "V1.0", "error": {"message": "\u672c\u5e94\u7528\u6ca1\u6709\u8fd9\u6761\u534f\u8bae\u7684\u6388\u6743", "code": 56}})
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::MultiPerfrom] ACCESS_TIME:{"tkn":"curlhttp","idx":-1,"chc":200,"cds":406,"ccn":468,"cpt":468,"cst":531,"cnt":531,"cuz":195,"cdz":217,"snt":528,"ngx":0,"svc":0,"spl":528,"spc":528,"stc":0}
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi clean up, handle = 0xc4ba240
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl easy clean up, handle = 0xc4da6a0
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl slist free all, list = 0xc4d1a48
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [HCI_SYS][CUserInfo::Storage]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [HCI_SYS][CUserInfo::WriteUserInfo]Enter
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [HCI_SYS][CUserInfo::WriteUserInfo]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [HCI_SYS][CUserInfo::Storage]Leave
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [HCI_SYS][HciAuth::TxGetIdThreadFunc] get txid = 297274238
+2019-03-01 14:04:06 Test.vshost.exe( 8224: 4080) DEBUG   [jtcommon][CurlHttp::~CurlHttp] CurlHttp dtor, addr = 0xe2dfe24
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) INFO    [HCI_SYS][HciAuth::Init] ______ StartLog Success ______
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) INFO    [HCI_SYS][HciAuth::Init] ParseConfig Success
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) INFO    [HCI_SYS][HciAuth::Init] eUdidType:-1
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CUserInfo::Load]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CUserInfo::ReadUserInfo]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CUserInfo::SplitUdidString]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CUserInfo::SplitUdidString]Leave
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CUserInfo::ReadUserInfo] get udid from userinfo type:0 udid:f48e38a163e1bfebfbff000506e3
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][hci_get_udid_by_type]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][get_win_mac_address]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][get_win_mac_address]Leave
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][hci_get_udid_by_type]Leave
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CUserInfo::ReadUserInfo]Leave
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CUserInfo::Load]Leave
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCount]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE) failed and errno=2
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) WARNING [HCI_SYS][HciAuth::ReadMaxSessionCount] failed to open file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE
+
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCount]Leave
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCountBatch]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE_BATCH) failed and errno=2
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) WARNING [HCI_SYS][HciAuth::ReadMaxSessionCountBatch] failed to open file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE_BATCH
+
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCountBatch]Leave
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) INFO    [HCI_SYS][HciAuth::Init] max_session_count:2
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CBasicAuth::LoadFromBuff] sKay_first[0:f48e38a163e1bfebfbff000506e3#889f9c04b9a7dc6c531c0f92dd3834cb#745d54a7]
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Leave
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_APP_FILE) failed and errno=2
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0xb0e6ebc
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][UploadDataInterFace::StartUpload]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/USER_CUSTOM_HIS) failed and errno=2
+2019-03-01 14:07:09 Test.vshost.exe( 7088: 2204) DEBUG   [HCI_SYS][HciAuth::TxSettingThreadFunc]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0x4dfb2c8
+2019-03-01 14:07:09 Test.vshost.exe( 7088: 4776) DEBUG   [HCI_SYS][HciAuth::CheckAuthThreadFunc]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088: 2204) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_TX_SETTING) failed and errno=2
+2019-03-01 14:07:09 Test.vshost.exe( 7088: 4776) DEBUG   [HCI_SYS][CBasicAuth::IsExpire]Enter
+2019-03-01 14:07:09 Test.vshost.exe( 7088: 2204) ERROR   [HCI_SYS][TxSetting::LoadFromFile] HCI_TX_SETTING IsValid false
+2019-03-01 14:07:09 Test.vshost.exe( 7088: 4776) DEBUG   [HCI_SYS][CBasicAuth::IsExpire]Leave
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 4776) DEBUG   [HCI_SYS][CUserInfo::IsNeedRegister] FALSE
+2019-03-01 14:07:09 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][UploadDataInterFace::StartUpload]Leave
+2019-03-01 14:07:10 Test.vshost.exe( 7088:10704) DEBUG   [HCI_SYS][UploadDataInterFace::UploadThreadFunc]Enter
+2019-03-01 14:07:10 Test.vshost.exe( 7088:10948) INFO    [HCI_SYS][HciAuth::Init] SUCCESS
+2019-03-01 14:07:10 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][HciAuth::Init]Leave
+2019-03-01 14:07:10 Test.vshost.exe( 7088:10948) DEBUG   [HCI_SYS][hci_init]Leave
+2019-03-01 14:07:10 Test.vshost.exe( 7088:10276) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0xe2ef938
+2019-03-01 14:07:10 Test.vshost.exe( 7088:10276) DEBUG   [jtcommon][CurlHttp::~CurlHttp] CurlHttp dtor, addr = 0xe2ef938
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::CurlInit] curl easy init, handle = 0xcf630b8
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::ShareDNSHandle] libcurl version:libcurl/7.37.0 zlib/1.2.8 c-ares/1.11.0
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][curl_share_handle] libcurl version:libcurl/7.37.0 zlib/1.2.8 c-ares/1.11.0
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::Post] http url:http://conf.open.tianxing.com:13000
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::Post] header:appKey:745d54a7
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::Post] header:nonceStr:2019-03-01 14:07:09
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::Post] header:sessionKey:1b5e8b9e16ef9aa0cd268fc8b2ae1b09
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::Post] curl slist init, list = 0xcf6bc20
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi init, handle = 0xcf6bcb0
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::MultiPerfrom] ACCESS_TIME:{"tkn":"curlhttp","idx":-1,"chc":200,"cds":47,"ccn":93,"cpt":93,"cst":171,"cnt":171,"cuz":143,"cdz":175,"snt":169,"ngx":0,"svc":0,"spl":169,"spc":169,"stc":0}
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi clean up, handle = 0xcf6bcb0
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl easy clean up, handle = 0xcf630b8
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl slist free all, list = 0xcf6bc20
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) WARNING [HCI_SYS][TxSetting::LoadFromString] get json(data) failed
+2019-03-01 14:07:10 Test.vshost.exe( 7088: 2204) DEBUG   [HCI_SYS][TxSetting::LoadFromNet] response({"timestamp": 1551420430000, "cmdid": 5041, "apiVersion": "V1.0", "error": {"message": "\u672c\u5e94\u7528\u6ca1\u6709\u8fd9\u6761\u534f\u8bae\u7684\u6388\u6743", "code": 56}})
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) INFO    [HCI_SYS][HciAuth::Init] ______ StartLog Success ______
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) INFO    [HCI_SYS][HciAuth::Init] ParseConfig Success
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) INFO    [HCI_SYS][HciAuth::Init] eUdidType:-1
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CUserInfo::Load]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CUserInfo::ReadUserInfo]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CUserInfo::SplitUdidString]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CUserInfo::SplitUdidString]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CUserInfo::ReadUserInfo] get udid from userinfo type:0 udid:f48e38a163e1bfebfbff000506e3
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][hci_get_udid_by_type]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][get_win_mac_address]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][get_win_mac_address]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][hci_get_udid_by_type]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CUserInfo::ReadUserInfo]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CUserInfo::Load]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCount]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE) failed and errno=2
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) WARNING [HCI_SYS][HciAuth::ReadMaxSessionCount] failed to open file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE
+
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCount]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCountBatch]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE_BATCH) failed and errno=2
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) WARNING [HCI_SYS][HciAuth::ReadMaxSessionCountBatch] failed to open file F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_LICENSE_BATCH
+
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][HciAuth::ReadMaxSessionCountBatch]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) INFO    [HCI_SYS][HciAuth::Init] max_session_count:2
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CBasicAuth::LoadFromBuff] sKay_first[0:f48e38a163e1bfebfbff000506e3#889f9c04b9a7dc6c531c0f92dd3834cb#745d54a7]
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][CBasicAuth::LoadFromFile]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_APP_FILE) failed and errno=2
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0x454c28c
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][UploadDataInterFace::StartUpload]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/USER_CUSTOM_HIS) failed and errno=2
+2019-03-01 14:09:00 Test.vshost.exe(10520: 6528) DEBUG   [HCI_SYS][HciAuth::CheckAuthThreadFunc]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 6528) DEBUG   [HCI_SYS][CBasicAuth::IsExpire]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 6528) DEBUG   [HCI_SYS][CBasicAuth::IsExpire]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 6528) DEBUG   [HCI_SYS][CUserInfo::IsNeedRegister] FALSE
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [HCI_SYS][HciAuth::TxSettingThreadFunc]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0x44be120
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][UploadDataInterFace::StartUpload]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) INFO    [jtcommon][FileReader::Load] open file (F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\/HCI_TX_SETTING) failed and errno=2
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) ERROR   [HCI_SYS][TxSetting::LoadFromFile] HCI_TX_SETTING IsValid false
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) INFO    [HCI_SYS][HciAuth::Init] SUCCESS
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][HciAuth::Init]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 7360) DEBUG   [HCI_SYS][hci_init]Leave
+2019-03-01 14:09:00 Test.vshost.exe(10520: 9640) DEBUG   [HCI_SYS][UploadDataInterFace::UploadThreadFunc]Enter
+2019-03-01 14:09:00 Test.vshost.exe(10520:10072) DEBUG   [jtcommon][CurlHttp::CurlHttp] CurlHttp ctor, addr = 0xdd1fb44
+2019-03-01 14:09:00 Test.vshost.exe(10520:10072) DEBUG   [jtcommon][CurlHttp::~CurlHttp] CurlHttp dtor, addr = 0xdd1fb44
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::CurlInit] curl easy init, handle = 0xdd532d8
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::ShareDNSHandle] libcurl version:libcurl/7.37.0 zlib/1.2.8 c-ares/1.11.0
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][curl_share_handle] libcurl version:libcurl/7.37.0 zlib/1.2.8 c-ares/1.11.0
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::Post] http url:http://conf.open.tianxing.com:13000
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::Post] header:appKey:745d54a7
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::Post] header:nonceStr:2019-03-01 14:09:00
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::Post] header:sessionKey:409887f488e64f5fb7ba8bd84b02e8ad
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::Post] curl slist init, list = 0xdd5bc20
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi init, handle = 0xdd5bcb0
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::MultiPerfrom] ACCESS_TIME:{"tkn":"curlhttp","idx":-1,"chc":200,"cds":31,"ccn":109,"cpt":109,"cst":171,"cnt":171,"cuz":143,"cdz":175,"snt":171,"ngx":0,"svc":0,"spl":171,"spc":171,"stc":0}
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::CurlPerform] curl multi clean up, handle = 0xdd5bcb0
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl easy clean up, handle = 0xdd532d8
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [jtcommon][CurlHttp::CurlCleanup_i] curl slist free all, list = 0xdd5bc20
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) WARNING [HCI_SYS][TxSetting::LoadFromString] get json(data) failed
+2019-03-01 14:09:00 Test.vshost.exe(10520: 5456) DEBUG   [HCI_SYS][TxSetting::LoadFromNet] response({"timestamp": 1551420540328, "cmdid": 5041, "apiVersion": "V1.0", "error": {"message": "\u672c\u5e94\u7528\u6ca1\u6709\u8fd9\u6761\u534f\u8bae\u7684\u6388\u6743", "code": 56}})
