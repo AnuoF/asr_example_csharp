@@ -16,7 +16,6 @@ F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\AnuoLibrary.dll
 F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\Test\bin\Debug\AnuoLibrary.pdb
 F:\Git\asr_example_csharp\Test\obj\Debug\Test.exe
 F:\Git\asr_example_csharp\Test\obj\Debug\Test.pdb
-F:\Git\asr_example_csharp\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
 F:\Git\asr_example_csharp\Test\obj\Debug\Test.Form1.resources
 F:\Git\asr_example_csharp\Test\obj\Debug\Test.Properties.Resources.resources
 F:\Git\asr_example_csharp\Test\obj\Debug\Test.ucAsr.resources
@@ -30,3 +29,6 @@ F:\Git\asr_example_csharp\Test\bin\Debug\AipSdk.dll
 F:\Git\asr_example_csharp\Test\bin\Debug\Newtonsoft.Json.dll
 F:\Git\asr_example_csharp\Test\bin\Debug\AnuoLibrary.pdb
 F:\Git\asr_example_csharp\Test\bin\Debug\AnuoLibrary.config
+F:\Git\asr_example_csharp\Test\obj\Debug\Test.csprojAssemblyReference.cache
+F:\Git\asr_example_csharp\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+F:\Git\asr_example_csharp\Test\obj\Debug\Test.csproj.CopyComplete

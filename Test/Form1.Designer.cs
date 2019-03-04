@@ -85,7 +85,7 @@
             this.ClientSize = new System.Drawing.Size(653, 568);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Demo by Anuo.";
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 

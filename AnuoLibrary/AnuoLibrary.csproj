@@ -57,13 +57,14 @@
     <Compile Include="Asr\Jths\JthsAsr.cs" />
     <Compile Include="Entity\Language.cs" />
     <Compile Include="Entity\SdkType.cs" />
-    <Compile Include="Entity\AudioType.cs" />
+    <Compile Include="Entity\LanguageType.cs" />
     <Compile Include="Entity\MD5Helper.cs" />
     <Compile Include="Entity\Utils.cs" />
     <Compile Include="Mt\ITranslate.cs" />
     <Compile Include="Mt\Trans\JthsTrans.cs" />
     <Compile Include="Mt\Trans\MZYWFY_API.cs" />
     <Compile Include="Mt\Trans\MzywfyTrans.cs" />
+    <Compile Include="Mt\Trans\NiuTrans.cs" />
     <Compile Include="Mt\Trans\TransBase.cs" />
     <Compile Include="Mt\Translate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -37,6 +37,11 @@ namespace AnuoLibrary.Mt
         private MzywfyTrans _mzywfy = null;
 
         /// <summary>
+        /// 小牛翻译
+        /// </summary>
+        private NiuTrans _niu = null;
+
+        /// <summary>
         /// 构造函数
         /// </summary>
         public Translate()
@@ -44,6 +49,7 @@ namespace AnuoLibrary.Mt
             LoadLanagueFromConfig();
             _jths = new JthsTrans();
             _mzywfy = new MzywfyTrans();
+            _niu = new NiuTrans();
         }
 
         /// <summary>
@@ -65,6 +71,9 @@ namespace AnuoLibrary.Mt
         /// <returns>true-成功；false-失败</returns>
         public bool Trans(string text, LanguageType from, out string result, LanguageType to = LanguageType.Mandarin)
         {
+            //string test = "";
+            //_niu.Translate(null,  LanguageType.Amdo,  LanguageType.Amdo, out test);
+
             Language language = Utils._languageTransList.Find(o => o.Name == from.ToString());
             if (language == null)
             {
@@ -75,7 +84,7 @@ namespace AnuoLibrary.Mt
             result = string.Empty;
             TransBase trans = null;
 
-            switch (language.Engine)
+            switch (language.Engine.ToLower())
             {
                 case "jths":
                     trans = _jths;
@@ -83,6 +92,10 @@ namespace AnuoLibrary.Mt
 
                 case "mzywfy":
                     trans = _mzywfy;
+                    break;
+
+                case "niu":
+                    trans = _niu;
                     break;
             }
 
