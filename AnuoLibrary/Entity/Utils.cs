@@ -6,25 +6,23 @@ namespace AnuoLibrary
     /// <summary>
     /// 全局类：提供公共字段或方法
     /// </summary>
-    internal class Utils
+    public class Utils
     {
         /// <summary>
         /// 配置文件全路径
         /// </summary>
-        public static string configName;
+        internal static string configName;
+
         /// <summary>
         /// 可识别的语种列表
         /// </summary>
-        public static List<Language> _languageList = new List<Language>();
+        internal static List<Language> _languageRecogList = new List<Language>();
 
         /// <summary>
-        /// 获取可识别的语种列表
+        /// 可翻译的语种列表
         /// </summary>
-        /// <returns>语种列表</returns>
-        public static List<Language> GetLanguages()
-        {
-            return _languageList;
-        }
+        internal static List<Language> _languageTransList = new List<Language>();
+
 
         /// <summary>
         /// 将配置文件中 text 字段映射到 LanguageType 枚举值

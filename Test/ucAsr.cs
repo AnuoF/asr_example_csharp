@@ -1,4 +1,5 @@
-﻿using AnuoLibrary.Asr;
+﻿using AnuoLibrary;
+using AnuoLibrary.Asr;
 using AnuoLibrary.Entity;
 using System;
 using System.Collections.Generic;
@@ -95,7 +96,7 @@ namespace Test
         private LanguageType GetLanguageType(string text)
         {
             Language language = _languageList.Find(o => o.Text == text);
-            return _asr.Text2LanguageType(language.Text);
+            return Utils.Text2LanguageType(language.Text);
         }
 
         // show info

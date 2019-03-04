@@ -49,9 +49,6 @@ namespace AnuoLibrary.Asr
         public Asr()
         {
             LoadLanagueFromConfig();
-            //_baidu = new BaiduAsr();
-            //_jths = new JthsAsr();
-            //_ifly = new iFlyAsr();
         }
 
         /// <summary>
@@ -63,13 +60,13 @@ namespace AnuoLibrary.Asr
         /// <returns>识别成功或失败，true-成功；false-失败</returns>
         public bool AudioRecog(byte[] audioData, LanguageType languageType, out string recogResult)
         {
-            if (Utils._languageList == null || Utils._languageList.Count <= 0)
+            if (Utils._languageRecogList == null || Utils._languageRecogList.Count <= 0)
             {
                 recogResult = "无可识别的语种，请检查配置文件 AnuoLibrary.config 是否存在，或者是否正确配置。";
                 return false;
             }
 
-            Language language = Utils._languageList.Find(o => o.Name == languageType.ToString());
+            Language language = Utils._languageRecogList.Find(o => o.Name == languageType.ToString());
             if (language == null)
             {
                 recogResult = "传入的语种未匹配上对应的能力。";
@@ -122,7 +119,7 @@ namespace AnuoLibrary.Asr
         /// <returns>语种列表</returns>
         public List<Language> GetLanguageList()
         {
-            return Utils._languageList;
+            return Utils._languageRecogList;
         }
 
         /// <summary>
@@ -160,11 +157,14 @@ namespace AnuoLibrary.Asr
         {
             try
             {
+                Utils._languageRecogList.Clear();
+                Utils._languageTransList.Clear();
+
                 string configPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "AnuoLibrary.config");
                 Utils.configName = configPath;
                 XmlDocument doc = new XmlDocument();
                 doc.Load(configPath);
-                Utils._languageList = new List<Language>();
+                Utils._languageRecogList = new List<Language>();
 
                 XmlNodeList nodes = doc.SelectSingleNode("./configuration/language").ChildNodes;
                 foreach (XmlNode node in nodes)
@@ -180,7 +180,25 @@ namespace AnuoLibrary.Asr
                         language.Capacity = node.Attributes["capacity"].InnerXml;
                         language.Engine = node.Attributes["engine"].InnerXml;
                         language.Valid = true;
-                        Utils._languageList.Add(language);
+                        Utils._languageRecogList.Add(language);
+                    }
+                }
+
+                nodes = doc.SelectSingleNode("./configuration/translate").ChildNodes;
+                foreach (XmlNode node in nodes)
+                {
+                    if (node.NodeType == XmlNodeType.Comment)
+                        continue;
+
+                    if (node.Attributes["valid"].InnerXml == "true")
+                    {
+                        Language language = new Language();
+                        language.Name = node.Attributes["name"].InnerXml;
+                        language.Text = node.Attributes["text"].InnerXml;
+                        language.Capacity = node.Attributes["capacity"].InnerXml;
+                        language.Engine = node.Attributes["engine"].InnerXml;
+                        language.Valid = true;
+                        Utils._languageTransList.Add(language);
                     }
                 }
             }

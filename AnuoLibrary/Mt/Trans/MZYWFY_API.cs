@@ -1,4 +1,18 @@
-﻿using Newtonsoft.Json;
+﻿/*********************************************************************************************
+ *	
+ * 文件名称:    MZYWFY_API.cs
+ * 
+ * 描    述：   中国民族语文翻译局 API。
+ *
+ * 作    者:    Anuo
+ *	
+ * 创作日期:    2019-3-4
+ *
+ * 备    注:	民族语文翻译局：汉文、蒙古文、藏文、维吾尔文、哈萨克文、朝鲜文、彝文、壮文
+ *                                        
+*********************************************************************************************/
+
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.IO;
@@ -8,9 +22,9 @@ using System.Text;
 namespace AnuoLibrary.Mt
 {
     /// <summary>
-    /// 中国民族语文翻译局
+    /// 中国民族语文翻译局 API
     /// </summary>
-    public class MzywfyjMT
+    internal class MZYWFY_API
     {
         /// <summary>
         /// 翻译
