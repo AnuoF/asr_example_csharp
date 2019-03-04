@@ -71,9 +71,6 @@ namespace AnuoLibrary.Mt
         /// <returns>true-成功；false-失败</returns>
         public bool Trans(string text, LanguageType from, out string result, LanguageType to = LanguageType.Mandarin)
         {
-            //string test = "";
-            //_niu.Translate(null,  LanguageType.Amdo,  LanguageType.Amdo, out test);
-
             Language language = Utils._languageTransList.Find(o => o.Name == from.ToString());
             if (language == null)
             {
