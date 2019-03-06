@@ -8,7 +8,7 @@
  *	
  * 创作日期:    2019-2-28
  *
- * 备    注:	
+ * 备    注:	百度支持的语种：英语、普通话、粤语和四川话。
  *                                        
 *********************************************************************************************/
 
@@ -25,7 +25,7 @@ namespace AnuoLibrary.Asr.Baidu
     internal class BaiduAsr : AsrBase
     {
         /// <summary>
-        /// APP_ID
+        /// APP_ID，程序中暂未用到
         /// </summary>
         private string _appId = string.Empty;
         /// <summary>
@@ -135,7 +135,7 @@ namespace AnuoLibrary.Asr.Baidu
             switch (language)
             {
                 case LanguageType.Mandarin:
-                    pid = 1536;
+                    pid = 1537;
                     break;
                 case LanguageType.English:
                     pid = 1737;

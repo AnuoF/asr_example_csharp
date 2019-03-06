@@ -28,7 +28,7 @@ namespace AnuoLibrary.Asr
         /// <summary>
         /// 语音识别
         /// </summary>
-        /// <param name="audioData">小于 60s 的音频数据，音频格式要求：pcm/16k/16位/单通道 。</param>
+        /// <param name="audioData">小于 60s 的音频数据（总长度不超过32000），音频格式要求：pcm/16k/16位/单通道 。</param>
         /// <param name="languageType">音频语种</param>
         /// <param name="recogResult">识别成功返回识别结果，识别失败返回错误消息</param>
         /// <returns>识别成功或失败，true-成功；false-失败</returns>

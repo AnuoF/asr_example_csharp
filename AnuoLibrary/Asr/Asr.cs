@@ -2,7 +2,7 @@
  *	
  * 文件名称:    Asr.cs
  * 
- * 描    述：   语音识别实现类，用于封装多个 SDK，对外提供统一的接口封装。
+ * 描    述：   语音识别实现类，用于封装多个 SDK，对外提供统一的接口调用封装。
  *
  * 作    者:    Anuo
  *	
@@ -48,13 +48,14 @@ namespace AnuoLibrary.Asr
         /// </summary>
         public Asr()
         {
+            // 加载配置信息
             LoadLanagueFromConfig();
         }
 
         /// <summary>
         /// 语音识别
         /// </summary>
-        /// <param name="audioData">小于 60s 的音频数据，音频格式要求：pcm/16k/16位/单通道 。</param>
+        /// <param name="audioData">小于 60s 的音频数据（总长度不超过32000），音频格式要求：pcm/16k/16位/单通道 。</param>
         /// <param name="languageType">音频语种类型</param>
         /// <param name="recogResult">识别成功返回识别结果，识别失败返回错误消息</param>
         /// <returns>识别成功或失败，true-成功；false-失败</returns>

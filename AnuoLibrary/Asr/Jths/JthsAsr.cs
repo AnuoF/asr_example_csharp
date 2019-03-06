@@ -142,7 +142,7 @@ namespace AnuoLibrary.Asr.Jths
                 if (!string.IsNullOrEmpty(authPath))
                 {
                     authPath = Path.Combine(appRootPath, authPath);
-                    if(!Directory.Exists(authPath))
+                    if (!Directory.Exists(authPath))
                     {
                         Directory.CreateDirectory(authPath);
                     }
@@ -326,7 +326,7 @@ namespace AnuoLibrary.Asr.Jths
                 }
 
                 // TODO:需测试是否需要 Sleep() 方法以提高识别速度
-              //  Thread.Sleep(200);   // 模拟真实说话人语速，发送200ms数据后需等待200ms
+                //  Thread.Sleep(200);   // 模拟真实说话人语速，发送200ms数据后需等待200ms
             }
 
             // 若检测到端点，但数据已经传入完毕，则需要告诉引擎数据输入完毕
@@ -369,11 +369,11 @@ namespace AnuoLibrary.Asr.Jths
         }
 
         /// <summary>
-        /// 
+        /// 找到第一个为空的字符串索引
         /// </summary>
-        /// <param name="ptr"></param>
-        /// <param name="length"></param>
-        /// <returns></returns>
+        /// <param name="ptr">指针</param>
+        /// <param name="length">起始长度</param>
+        /// <returns>索引</returns>
         private int FindNullIndex(IntPtr ptr, int length)
         {
             byte[] data = new byte[length];

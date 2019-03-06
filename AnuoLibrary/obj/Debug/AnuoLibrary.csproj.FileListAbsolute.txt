@@ -14,4 +14,3 @@ F:\Git\asr_example_csharp\AnuoLibrary\obj\Debug\AnuoLibrary.pdb
 F:\Git\asr_example_csharp\AnuoLibrary\bin\Debug\AnuoLibrary.config
 F:\Git\asr_example_csharp\AnuoLibrary\obj\Debug\AnuoLibrary.csproj.CoreCompileInputs.cache
 F:\Git\asr_example_csharp\AnuoLibrary\obj\Debug\AnuoLibrary.csproj.CopyComplete
-F:\Git\asr_example_csharp\AnuoLibrary\obj\Debug\AnuoLibrary.csprojAssemblyReference.cache

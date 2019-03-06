@@ -8,7 +8,8 @@
  *	
  * 创作日期:    2019-2-28
  *
- * 备    注:	
+ * 备    注:	已集成英语、普通话、粤语和四川话的识别，由于其他语种的字符没有在官网上查询到，
+ *              如果需要集成进来，则要询问讯飞的技术人员。
  *                                        
 *********************************************************************************************/
 
@@ -184,7 +185,7 @@ namespace AnuoLibrary.Asr.iFly
 
                 // TODO:需测试验证，是否需要 Sleep()
                 // 模拟人说话时间间隙，200ms对应10帧的音频
-             //   Thread.Sleep(200);
+                //   Thread.Sleep(200);
             }
 
             errCode = msc_api.QISRAudioWrite(sessionId, null, 0, AudioStatus.MSP_AUDIO_SAMPLE_LAST, ref ep_stat, ref rec_stat);
@@ -209,7 +210,7 @@ namespace AnuoLibrary.Asr.iFly
                     sb.Append(result);
                 }
 
-                Thread.Sleep(5);   // 防止频繁占用内存
+                Thread.Sleep(1);   // 防止频繁占用内存
             }
 
             recogResult = sb.ToString();
@@ -281,36 +282,36 @@ namespace AnuoLibrary.Asr.iFly
                     break;
 
                 // TODO:以下情况的具体字段尚未明确，需询问讯飞技术人员。
-                case LanguageType.Dongbei:
-                    break;
-                case LanguageType.Henan:
-                    break;
-                case LanguageType.Tianjin:
-                    break;
-                case LanguageType.Shandong:
-                    break;
-                case LanguageType.Guizhou:
-                    break;
-                case LanguageType.Ningxia:
-                    break;
-                case LanguageType.Yunnan:
-                    break;
-                case LanguageType.Shanxi:
-                    break;
-                case LanguageType.Gansu:
-                    break;
-                case LanguageType.Wuhan:
-                    break;
-                case LanguageType.Hebei:
-                    break;
-                case LanguageType.Hefei:
-                    break;
-                case LanguageType.Changsha:
-                    break;
-                case LanguageType.Shanghai:
-                    break;
-                case LanguageType.Taiyuan:
-                    break;
+                //case LanguageType.Dongbei:
+                //    break;
+                //case LanguageType.Henan:
+                //    break;
+                //case LanguageType.Tianjin:
+                //    break;
+                //case LanguageType.Shandong:
+                //    break;
+                //case LanguageType.Guizhou:
+                //    break;
+                //case LanguageType.Ningxia:
+                //    break;
+                //case LanguageType.Yunnan:
+                //    break;
+                //case LanguageType.Shanxi:
+                //    break;
+                //case LanguageType.Gansu:
+                //    break;
+                //case LanguageType.Wuhan:
+                //    break;
+                //case LanguageType.Hebei:
+                //    break;
+                //case LanguageType.Hefei:
+                //    break;
+                //case LanguageType.Changsha:
+                //    break;
+                //case LanguageType.Shanghai:
+                //    break;
+                //case LanguageType.Taiyuan:
+                //    break;
 
                 default:
                     sessionBeginParams = string.Empty;

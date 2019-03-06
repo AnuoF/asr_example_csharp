@@ -41,7 +41,7 @@ namespace AnuoLibrary.Entity
         public string Engine;
 
         /// <summary>
-        /// 是否有效
+        /// 是否有效。 从配置文件读取时，已将其赋值为true
         /// </summary>
         internal bool Valid = false;
     }
