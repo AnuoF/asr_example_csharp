@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asr\AsrFun.cs" />
     <Compile Include="Asr\Asr.cs" />
     <Compile Include="Asr\AsrBase.cs" />
     <Compile Include="Asr\Baidu\BaiduAsr.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Entity\MD5Helper.cs" />
     <Compile Include="Entity\Utils.cs" />
     <Compile Include="Mt\ITranslate.cs" />
+    <Compile Include="Mt\TranslateFun.cs" />
     <Compile Include="Mt\Trans\JthsTrans.cs" />
     <Compile Include="Mt\Trans\MZYWFY_API.cs" />
     <Compile Include="Mt\Trans\MzywfyTrans.cs" />

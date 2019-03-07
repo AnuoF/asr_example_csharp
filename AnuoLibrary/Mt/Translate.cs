@@ -24,7 +24,7 @@ namespace AnuoLibrary.Mt
     /// <summary>
     /// 翻译实现类
     /// </summary>
-    public class Translate : ITranslate
+    internal class Translate : ITranslate
     {
         /// <summary>
         /// 捷通华声翻译

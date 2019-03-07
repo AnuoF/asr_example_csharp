@@ -20,8 +20,8 @@ namespace Test
         {
             InitializeComponent();
 
-            // 1) 实例化 Asr 对象
-            _asr = new Asr();
+            // 1) 获取 Asr 语音识别功能接口
+            _asr = AsrFun.Asr;
 
             // 2) 获取可识别的语种列表
             _languageList = _asr.GetLanguageList();

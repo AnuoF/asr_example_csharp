@@ -15,7 +15,8 @@ namespace Test
         {
             InitializeComponent();
 
-            _trans = new Translate();
+            // 1) 获取 ITranslate 翻译功能接口
+            _trans = TranslateFun.Translate;
 
             LoadInfo();
             cmbTo.SelectedIndex = 0;
@@ -32,6 +33,7 @@ namespace Test
             LanguageType languageType = Utils.Text2LanguageType(from);
             string result = string.Empty;
 
+            // 2）翻译
             bool ret = _trans.Trans(text, languageType, out result);
             if (ret)
             {

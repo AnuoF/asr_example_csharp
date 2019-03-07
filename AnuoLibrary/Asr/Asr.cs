@@ -27,7 +27,7 @@ namespace AnuoLibrary.Asr
     /// <summary>
     /// 语音识别实现类
     /// </summary>
-    public class Asr : IAsr
+    internal class Asr : IAsr
     {
         /// <summary>
         /// 百度语音识别
