@@ -1,7 +1,0 @@
-F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\AsrLibrary\bin\Debug\AsrLibrary.config
-F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\AsrLibrary\bin\Debug\AsrLibrary.dll
-F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\AsrLibrary\bin\Debug\AsrLibrary.pdb
-F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\AsrLibrary\bin\Debug\AipSdk.dll
-F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\AsrLibrary\bin\Debug\Newtonsoft.Json.dll
-F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\AsrLibrary\obj\Debug\AsrLibrary.dll
-F:\Git\ASR_ExampleCSharp\ASR_ExampleCSharp\AsrLibrary\obj\Debug\AsrLibrary.pdb

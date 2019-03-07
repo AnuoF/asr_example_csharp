@@ -1,6 +1,5 @@
-﻿using AnuoLibrary;
-using AnuoLibrary.Entity;
-using AnuoLibrary.Mt;
+﻿using AsrLibrary.Entity;
+using AsrLibrary.Mt;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -30,7 +29,7 @@ namespace Test
             string from = cmbFrom.Text;
             if (string.IsNullOrEmpty(from)) return;
 
-            LanguageType languageType = Utils.Text2LanguageType(from);
+            LanguageType languageType = AsrLibrary.Utils.Text2LanguageType(from);
             string result = string.Empty;
 
             // 2）翻译

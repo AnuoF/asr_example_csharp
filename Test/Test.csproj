@@ -102,9 +102,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AnuoLibrary\AnuoLibrary.csproj">
+    <ProjectReference Include="..\AsrLibrary\AsrLibrary.csproj">
       <Project>{0aabee12-ccc8-40f8-b367-5277ab7e1612}</Project>
-      <Name>AnuoLibrary</Name>
+      <Name>AsrLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

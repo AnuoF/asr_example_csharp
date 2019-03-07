@@ -1,4 +1,4 @@
-﻿using AnuoLibrary.Tts;
+﻿using AsrLibrary.Tts;
 using System;
 using System.IO;
 using System.Threading;

@@ -1,6 +1,6 @@
-﻿using AnuoLibrary;
-using AnuoLibrary.Asr;
-using AnuoLibrary.Entity;
+﻿using AsrLibrary;
+using AsrLibrary.Asr;
+using AsrLibrary.Entity;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
