@@ -29,7 +29,7 @@ namespace AnuoLibrary.Mt
     /// </summary>
     internal class JthsTrans : TransBase
     {
-        private string _cloudUrl = "http://api.hcicloud.com:8880/mt/Translate";
+        private readonly string _cloudUrl = "http://api.hcicloud.com:8880/mt/Translate";
         private string _appKey = "";
         private string _developerKey = "";
         private string _capKey = "mt.cloud.uy2cn"; //"mt.cloud.translate.uy2cn";
@@ -45,8 +45,6 @@ namespace AnuoLibrary.Mt
         {
             LoadApiInfo();
 
-            //capkey = mt.cloud.translate，property = uy2cn
-            //taskConfig = "capkey=mt.cloud.translate,property=uy2cn";
             _taskConfig = "capkey=" + _capKey + ",splitsentenc" + _splitsentence;
         }
 
@@ -148,9 +146,9 @@ namespace AnuoLibrary.Mt
         /// <returns>true-翻译成功；false-翻译失败</returns>
         private bool getResult(string retXml, out string transResult)
         {
-            transResult = null;
             if (string.IsNullOrEmpty(retXml))
             {
+                transResult = string.Empty;
                 return false;
             }
 
@@ -188,26 +186,54 @@ namespace AnuoLibrary.Mt
         }
     }
 
+    /// <summary>
+    /// 翻译结果
+    /// </summary>
     public class ResponseInfo
     {
+        /// <summary>
+        /// 返回代码
+        /// </summary>
         public string ResCode;
 
+        /// <summary>
+        /// 返回消息
+        /// </summary>
         public string ResMessage;
 
+        /// <summary>
+        /// Token
+        /// </summary>
         public string Result_Token;
 
+        /// <summary>
+        /// 结果
+        /// </summary>
         public string ResultText;
 
+        /// <summary>
+        /// 分数
+        /// </summary>
         public string Score;
 
+        /// <summary>
+        /// 错误码
+        /// </summary>
         public string ErrorNo = "";
 
 
+        /// <summary>
+        /// 默认构造函数
+        /// </summary>
         public ResponseInfo()
         {
 
         }
 
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="retXml">XML字符串</param>
         public ResponseInfo(string retXml)
         {
             XmlDocument doc = new XmlDocument();

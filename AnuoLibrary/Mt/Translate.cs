@@ -22,7 +22,7 @@ using System.Xml;
 namespace AnuoLibrary.Mt
 {
     /// <summary>
-    /// 翻译实现类
+    /// 翻译实现类，集成了捷通华声翻译、民族语文翻译和小牛翻译。
     /// </summary>
     internal class Translate : ITranslate
     {
@@ -114,7 +114,7 @@ namespace AnuoLibrary.Mt
         {
             try
             {
-                // 识别和翻译都调用的此方法，所以需先 Clear()
+                // 识别和翻译都调用了此方法，所以需先 Clear()
                 Utils._languageRecogList.Clear();
                 Utils._languageTransList.Clear();
 

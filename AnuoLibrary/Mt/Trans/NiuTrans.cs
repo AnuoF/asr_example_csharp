@@ -50,9 +50,9 @@ namespace AnuoLibrary.Mt
             try
             {
                 result = string.Empty;
-                string from_str = GetCharFromLanguageType(from);
+                string fromStr = GetCharFromLanguageType(from);
 
-                if (string.IsNullOrEmpty(from_str))
+                if (string.IsNullOrEmpty(fromStr))
                 {
                     result = "小牛翻译，暂未集成该语种的翻译。";
                     return false;
@@ -67,7 +67,7 @@ namespace AnuoLibrary.Mt
                 request.UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36";
                 request.Referer = "https://niutrans.vip/";
 
-                string sendText = string.Format("from={0}&to={1}&m={2}&src_text={3}&url=", from_str, "zh", "0.9837005488627406", text);
+                string sendText = string.Format("from={0}&to={1}&m={2}&src_text={3}&url=", fromStr, "zh", "0.9837005488627406", text);
                 byte[] data = Encoding.UTF8.GetBytes(sendText);
 
                 request.ContentLength = data.Length;

@@ -68,7 +68,7 @@ namespace AnuoLibrary.Asr.Baidu
             int pid = GetPID(languageType);
             if (pid == -1)
             {
-                recogResult = _errMsg = "百度语音识别不具备该语种的识别能力";
+                recogResult = _errMsg = "百度语音识别不具备该语种的识别能力。";
                 return false;
             }
 

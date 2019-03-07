@@ -101,6 +101,9 @@ namespace AnuoLibrary.Asr
                     }
                     asr = _ifly;
                     break;
+
+                default:
+                    break;
             }
 
             if (asr != null)
@@ -158,6 +161,7 @@ namespace AnuoLibrary.Asr
         {
             try
             {
+                // 识别和翻译都调用了此方法，所以需先 Clear()
                 Utils._languageRecogList.Clear();
                 Utils._languageTransList.Clear();
 
@@ -165,7 +169,6 @@ namespace AnuoLibrary.Asr
                 Utils.configName = configPath;
                 XmlDocument doc = new XmlDocument();
                 doc.Load(configPath);
-                Utils._languageRecogList = new List<Language>();
 
                 XmlNodeList nodes = doc.SelectSingleNode("./configuration/language").ChildNodes;
                 foreach (XmlNode node in nodes)
