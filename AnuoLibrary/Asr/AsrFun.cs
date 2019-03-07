@@ -2,7 +2,7 @@
  *	
  * 文件名称:    AsrFun.cs
  *
- * 描    述：   AsrFun类，进一步封装成静态类调用
+ * 描    述：   AsrFun 类，语音识别功能入口类
  *  
  * 作    者:    Anuo
  *	
@@ -16,7 +16,7 @@
 namespace AnuoLibrary.Asr
 {
     /// <summary>
-    /// AsrFun类，进一步封装成静态类调用
+    /// AsrFun 静态类，语音识别功能入口类
     /// </summary>
     public static class AsrFun
     {
@@ -37,7 +37,6 @@ namespace AnuoLibrary.Asr
         {
             get
             {
-
                 lock (_lockObj)
                 {
                     if (_asr == null)

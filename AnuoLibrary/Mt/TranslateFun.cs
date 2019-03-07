@@ -12,15 +12,11 @@
  *                                        
 *********************************************************************************************/
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace AnuoLibrary.Mt
 {
     /// <summary>
-    /// 静态类，翻译功能入口类
+    /// TranslateFun 静态类，翻译功能入口类
     /// </summary>
     public static class TranslateFun
     {
