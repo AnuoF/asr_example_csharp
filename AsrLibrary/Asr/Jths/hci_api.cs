@@ -8,8 +8,11 @@
  *	
  * 创作日期:    2019-2-28
  *
- * 备    注:	
- *                                        
+ * 备    注:	问题：在调用 sdk 时失败的问题，原因是无法加载dll文件，但dll文件又确实存在。DllImport
+ *              这种方式确实有可能存在这样的问题。
+ *              解决办法：在初始化是动态设置当前进程的环境变量，添加 sdk 所在的路径，这样才能
+ *              “找到”dll文件。
+ * 
 *********************************************************************************************/
 
 using System;
@@ -22,72 +25,55 @@ namespace AsrLibrary.Asr.Jths
     /// </summary>
     internal class hci_api
     {
-        [DllImport("hci_sys.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_sys.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_init(string initConfig);
 
-        [DllImport("hci_sys.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_sys.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern string hci_get_error_info(int errorCode);
 
-        [DllImport("hci_sys.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_sys.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_release();
 
-        [DllImport("hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_asr_init(string asrInitConfig);
 
-        [DllImport("hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern void hci_asr_release();
 
-        [DllImport("hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_asr_session_start(string config, ref int sessionId);
 
-        [DllImport("hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_asr_recog(int sessionId, byte[] data, uint dataLen, string congfig, string grammarData, ref ASR_RECOG_RESULT recogResult);
 
-        [DllImport("hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_asr_free_recog_result(ref ASR_RECOG_RESULT recogResult);
 
-        [DllImport("hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_asr.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_asr_session_stop(int sessionId);
 
-
-        [DllImport("ASRCommonTool.dll", CallingConvention = CallingConvention.StdCall)]
-        public static extern int test_sum(int a, int b);
-
-        [DllImport("ASRCommonTool.dll", CallingConvention = CallingConvention.StdCall)]
-        public static extern int UTF8ToGBK(IntPtr utfStr, ref IntPtr gbkStr);
-
-        [DllImport("ASRCommonTool.dll", CallingConvention = CallingConvention.StdCall)]
-        public static extern int GBKToUTF8(IntPtr pGBKStr, ref IntPtr pUTF8Str);
-
-        [DllImport("ASRCommonTool.dll", CallingConvention = CallingConvention.StdCall)]
-        public static extern int UTF8Length(IntPtr utfStr);
-
-        [DllImport("ASRCommonTool.dll", CallingConvention = CallingConvention.StdCall)]
-        public static extern IntPtr U8ToUnicode(IntPtr szU8);
-
-        [DllImport("ASRCommonTool.dll", CallingConvention = CallingConvention.StdCall)]
-        public static extern int Unicode2Utf8(IntPtr unicode, IntPtr utf8, int nBuffSize);
-
-        [DllImport("hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_get_auth_expire_time(ref long expire_time);
 
-        [DllImport("hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_check_auth();
 
-        [DllImport("hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_mt_init(string initConfig);
 
-        [DllImport("hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_mt_session_start(string pszSessionConfig, ref int sessionId);
 
-        [DllImport("hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@"\AsrSdk\Jths\hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int hci_mt_session_stop(int sessionId);
+
 
         //[DllImport("hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
         //public static extern int hci_mt_trans(int sessionId, string transText, string pszRecogConfig, ref MT_TRANS_RESULT mtResult);
 
         //[DllImport("hci_mt.dll", CallingConvention = CallingConvention.StdCall)]
         //public static extern int hci_mt_free_trans_result(ref MT_TRANS_RESULT mrResult);
+
     }
 
     /// <summary>

@@ -29,6 +29,10 @@ namespace AsrLibrary.Asr
         /// 最近一次的错误信息
         /// </summary>
         public string _errMsg = string.Empty;
+        /// <summary>
+        /// 同步锁
+        /// </summary>
+        public static object _lockObj = new object();
 
         /// <summary>
         /// 语音识别

@@ -28,13 +28,34 @@ namespace AsrLibrary.Asr.iFly
     /// </summary>
     internal class iFlyAsr : AsrBase
     {
+        /// <summary>
+        /// 单例对象
+        /// </summary>
+        private static iFlyAsr _instance = null;
 
         /// <summary>
         /// 构造函数
         /// </summary>
-        public iFlyAsr()
+        private iFlyAsr()
         {
             SdkInit();
+        }
+
+        /// <summary>
+        /// 获取单例
+        /// </summary>
+        /// <returns>返回 iFlyAsr 对象</returns>
+        public static iFlyAsr GetInstance()
+        {
+            if (_instance == null)
+            {
+                lock (_lockObj)
+                {
+                    _instance = new iFlyAsr();
+                }
+            }
+
+            return _instance;
         }
 
         /// <summary>
@@ -278,7 +299,7 @@ namespace AsrLibrary.Asr.iFly
                 case LanguageType.Yue:
                     sessionBeginParams = string.Format(sessionBeginParams, "cantonese");
                     break;
-                case LanguageType.Sichaun:
+                case LanguageType.Sichuan:
                     sessionBeginParams = string.Format(sessionBeginParams, "lmz");
                     break;
 

@@ -38,7 +38,7 @@ namespace AsrLibrary.Entity
         /// <summary>
         /// 四川话
         /// </summary>
-        Sichaun,
+        Sichuan,
 
         /// <summary>
         /// 维吾尔语

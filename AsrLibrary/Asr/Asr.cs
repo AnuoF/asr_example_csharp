@@ -81,7 +81,7 @@ namespace AsrLibrary.Asr
                 case "baidu":
                     if (_baidu == null)
                     {
-                        _baidu = new BaiduAsr();
+                        _baidu = BaiduAsr.GetInstance();
                     }
                     asr = _baidu;
                     break;
@@ -89,7 +89,7 @@ namespace AsrLibrary.Asr
                 case "jths":
                     if (_jths == null)
                     {
-                        _jths = new JthsAsr();
+                        _jths = JthsAsr.GetInstance();
                     }
                     asr = _jths;
                     break;
@@ -97,7 +97,7 @@ namespace AsrLibrary.Asr
                 case "ifly":
                     if (_ifly == null)
                     {
-                        _ifly = new iFlyAsr();
+                        _ifly = iFlyAsr.GetInstance();
                     }
                     asr = _ifly;
                     break;
@@ -151,7 +151,11 @@ namespace AsrLibrary.Asr
         /// </summary>
         public void Dispose()
         {
-            _jths.Dispose();
+            if(_jths != null)
+            {
+                _jths.Dispose();
+                _jths = null;
+            }
         }
 
         /// <summary>

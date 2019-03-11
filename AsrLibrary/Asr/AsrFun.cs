@@ -33,20 +33,17 @@ namespace AsrLibrary.Asr
         /// <summary>
         /// 获取语音识别接口
         /// </summary>
-        public static IAsr Asr
+        public static IAsr GetAsr()
         {
-            get
+            if (_asr == null)
             {
                 lock (_lockObj)
                 {
-                    if (_asr == null)
-                    {
-                        _asr = new Asr();
-                    }
+                    _asr = new Asr();
                 }
-
-                return _asr;
             }
+
+            return _asr;
         }
     }
 }

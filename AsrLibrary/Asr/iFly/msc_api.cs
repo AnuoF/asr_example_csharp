@@ -22,37 +22,37 @@ namespace AsrLibrary.Asr.iFly
     /// </summary>
     internal class msc_api
     {
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int MSPLogin(string usr, string pwd, string parameters);
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int MSPLogout();
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern IntPtr QISRSessionBegin(string grammarList, string _params, ref int errorCode);
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int QISRAudioWrite(IntPtr sessionID, byte[] waveData, uint waveLen, AudioStatus audioStatus, ref EpStatus epStatus, ref RecogStatus recogStatus);
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern IntPtr QISRGetResult(IntPtr sessionID, ref RecogStatus rsltStatus, int waitTime, ref int errorCode);
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int QISRSessionEnd(IntPtr sessionID, string hints);
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern string MSPUploadData(string dataName, byte[] data, uint dataLen, string _params, ref int errorCode);
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern string QTTSSessionBegin(string _params, ref int errorCode);
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int QTTSTextPut(string sessionID, string textString, uint textLen, string _params);
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int QTTSSessionEnd(string sessionID, string hints);
 
-        [DllImport("msc.dll", CallingConvention = CallingConvention.StdCall)]
+        [DllImport(@".\AsrSdk\iFly\msc.dll", CallingConvention = CallingConvention.StdCall)]
         public static extern byte[] QTTSAudioGet(string sessionID, ref uint audioLen, ref int synthStatus, ref int errorCode);
     }
 

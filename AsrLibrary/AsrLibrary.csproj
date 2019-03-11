@@ -33,10 +33,12 @@
     <Reference Include="AipSdk, Version=3.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Sdk\Baidu\AipSdk.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Sdk\Baidu\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -75,22 +77,49 @@
   <ItemGroup>
     <None Include="AsrLibrary.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Sdk\Baidu\AipSdk.dll" />
-    <Content Include="Sdk\Baidu\Newtonsoft.Json.dll" />
-    <Content Include="Sdk\iFly\msc.dll" />
-    <Content Include="Sdk\Jths\hci_asr.dll" />
-    <Content Include="Sdk\Jths\hci_asr_cloud_recog.dll" />
-    <Content Include="Sdk\Jths\hci_asr_local_ft_recog.dll" />
-    <Content Include="Sdk\Jths\hci_asr_local_recog.dll" />
-    <Content Include="Sdk\Jths\hci_sys.dll" />
-    <Content Include="Sdk\Jths\iSpeakDNNLite.dll" />
-    <Content Include="Sdk\Jths\iSpeakGrmDNNLite.dll" />
-    <Content Include="Sdk\Jths\jtopus.dll" />
-    <Content Include="Sdk\Jths\jtspeex.dll" />
-    <Content Include="Sdk\Jths\libhci_curl.dll" />
+    <Content Include="AsrSdk\Baidu\AipSdk.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Baidu\Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\iFly\msc.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\hci_asr.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\hci_asr_cloud_recog.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\hci_asr_local_ft_recog.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\hci_asr_local_recog.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\hci_sys.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\iSpeakDNNLite.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\iSpeakGrmDNNLite.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\jtopus.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\jtspeex.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AsrSdk\Jths\libhci_curl.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

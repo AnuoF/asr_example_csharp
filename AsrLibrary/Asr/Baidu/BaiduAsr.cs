@@ -40,14 +40,35 @@ namespace AsrLibrary.Asr.Baidu
         /// 百度语音识别
         /// </summary>
         private global::Baidu.Aip.Speech.Asr _client = null;
+        /// <summary>
+        /// 单例
+        /// </summary>
+        private static BaiduAsr _instance = null;
 
 
         /// <summary>
         /// 构造函数：完成 SDK 的初始化
         /// </summary>
-        public BaiduAsr()
+        private BaiduAsr()
         {
             InitSdk();
+        }
+
+        /// <summary>
+        /// 获取单例
+        /// </summary>
+        /// <returns>返回 BaiduAsr 对象</returns>
+        public static BaiduAsr GetInstance()
+        {
+            if (_instance == null)
+            {
+                lock (_lockObj)
+                {
+                    _instance = new BaiduAsr();
+                }
+            }
+
+            return _instance;
         }
 
         /// <summary>
@@ -143,7 +164,7 @@ namespace AsrLibrary.Asr.Baidu
                 case LanguageType.Yue:
                     pid = 1637;
                     break;
-                case LanguageType.Sichaun:
+                case LanguageType.Sichuan:
                     pid = 1837;
                     break;
                 default:

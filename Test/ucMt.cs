@@ -15,7 +15,7 @@ namespace Test
             InitializeComponent();
 
             // 1) 获取 ITranslate 翻译功能接口
-            _trans = TranslateFun.Translate;
+            _trans = TranslateFun.GetTranslate();
 
             LoadInfo();
             cmbTo.SelectedIndex = 0;

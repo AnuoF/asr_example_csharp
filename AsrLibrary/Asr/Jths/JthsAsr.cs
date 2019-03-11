@@ -14,7 +14,9 @@
 
 using AsrLibrary.Entity;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Xml;
@@ -30,13 +32,35 @@ namespace AsrLibrary.Asr.Jths
         /// 识别结果
         /// </summary>
         private StringBuilder _sbResult = new StringBuilder();
+        /// <summary>
+        /// 单例对象
+        /// </summary>
+        private static JthsAsr _instance = null;
+   
 
         /// <summary>
         /// 构造函数
         /// </summary>
-        public JthsAsr()
+        private JthsAsr()
         {
             InitSdk();
+        }
+
+        /// <summary>
+        /// 获取单例
+        /// </summary>
+        /// <returns>返回 JthsAsr 对象</returns>
+        public static JthsAsr GetInstance()
+        {
+            if (_instance == null)
+            {
+                lock (_lockObj)
+                {
+                    _instance = new JthsAsr();
+                }
+            }
+
+            return _instance;
         }
 
         #region AsrBase Implement
@@ -184,6 +208,11 @@ namespace AsrLibrary.Asr.Jths
                     _errMsg = string.Format("hci_init return {0}:{1}", errCode, hci_api.hci_get_error_info(errCode));
                     _isSdkInit = false;
                 }
+
+                // dll查找顺序：1）exe所在目录；2）System32目录；3）环境变量目录
+                // 初始化时需要设置当前进程的环境变量，不然调用sdk会失败
+                string sdkPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"AsrSdk\Jths\");
+                Utils.AddEnvironmentPaths(new List<string>() { sdkPath });
             }
             catch (Exception ex)
             {
@@ -206,8 +235,14 @@ namespace AsrLibrary.Asr.Jths
                 asrInitConfig += ",datapath=" + dataPath;
             }
 
+            string currDir = Environment.CurrentDirectory;
+
             try
             {
+                // 这种方式也行，不过需要来回切换目录，而且可能引起系统其他异常
+                // https://www.cnblogs.com/marvin/p/PutDllToSpecificFolder.html    
+                //string sdkDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "AsrSdk\\Jths");
+                //Environment.CurrentDirectory = sdkDir;
                 int errCode = hci_api.hci_asr_init(asrInitConfig);
                 if (errCode == (int)HCI_ERR_CODE.HCI_ERR_NONE)
                 {
@@ -223,6 +258,10 @@ namespace AsrLibrary.Asr.Jths
             {
                 _errMsg = ex.Message;
                 return false;
+            }
+            finally
+            {
+                //Environment.CurrentDirectory = currDir;
             }
         }
 
@@ -437,7 +476,7 @@ namespace AsrLibrary.Asr.Jths
                 case LanguageType.Shanghai:
                     capKey = "asr.cloud.freetalk.shanghaihua";
                     break;
-                case LanguageType.Sichaun:
+                case LanguageType.Sichuan:
                     capKey = "asr.cloud.freetalk.sichuan";
                     break;
                 case LanguageType.Taiwan:
@@ -467,6 +506,6 @@ namespace AsrLibrary.Asr.Jths
             }
 
             return capKey;
-        }
+        }       
     }
 }

@@ -33,19 +33,16 @@ namespace AsrLibrary.Mt
         /// <summary>
         /// 获取翻译功能接口
         /// </summary>
-        public static ITranslate Translate
+        public static ITranslate GetTranslate()
         {
-            get
+            lock (_lockObj)
             {
-                lock (_lockObj)
+                if (_translate == null)
                 {
-                    if (_translate == null)
-                    {
-                        _translate = new Translate();
-                    }
-
-                    return _translate;
+                    _translate = new Translate();
                 }
+
+                return _translate;
             }
         }
     }

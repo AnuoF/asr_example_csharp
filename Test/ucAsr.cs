@@ -21,7 +21,7 @@ namespace Test
             InitializeComponent();
 
             // 1) 获取 Asr 语音识别功能接口
-            _asr = AsrFun.Asr;
+            _asr = AsrFun.GetAsr();
 
             // 2) 获取可识别的语种列表
             _languageList = _asr.GetLanguageList();
