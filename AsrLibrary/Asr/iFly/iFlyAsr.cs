@@ -322,8 +322,9 @@ namespace AsrLibrary.Asr.iFly
                 //    break;
                 //case LanguageType.Gansu:
                 //    break;
-                //case LanguageType.Wuhan:
-                //    break;
+                case LanguageType.Wuhan:    // wuhanese
+                    sessionBeginParams = string.Format(sessionBeginParams, "wuhanese");
+                    break;
                 //case LanguageType.Hebei:
                 //    break;
                 //case LanguageType.Hefei:

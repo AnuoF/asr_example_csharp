@@ -50,11 +50,14 @@ namespace Test
         {
             try
             {
-                string fileName = txtAudioFile.Text.Trim();
-                if (string.IsNullOrEmpty(fileName)) return;
-                if (!File.Exists(fileName)) return;
+                string pcmFileName = txtAudioFile.Text.Trim();
+                if (string.IsNullOrEmpty(pcmFileName)) return;
+                if (!File.Exists(pcmFileName)) return;
 
-                SoundPlayer player = new SoundPlayer(fileName);
+                string mp3FileName = pcmFileName.Replace("pcm", "wav");  // @"C:\Users\Administrator\Desktop\语音识别音频文件\武汉话 - Rec 0002.wav";//
+                if (!File.Exists(mp3FileName)) return;
+
+                SoundPlayer player = new SoundPlayer(mp3FileName);
                 player.Play();
             }
             catch (Exception ex)
