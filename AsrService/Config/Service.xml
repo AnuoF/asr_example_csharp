@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <serviceinfo>
+    <ip name="服务端IP地址">127.0.0.1</ip>
+    <port name="端口">8888</port>
+  </serviceinfo>
+</config>
+
+<!--如果将配置添加到 App.config 中，会报 “配置系统未初始化的异常”-->

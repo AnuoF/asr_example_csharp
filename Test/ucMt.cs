@@ -1,5 +1,6 @@
-﻿using AsrLibrary.Entity;
-using AsrLibrary.Mt;
+﻿using AsrCommon.Asr;
+using AsrCommon.Entity;
+using AsrCommon.Mt;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -15,10 +16,15 @@ namespace Test
             InitializeComponent();
 
             // 1) 获取 ITranslate 翻译功能接口
-            _trans = TranslateFun.GetTranslate();
+            //_trans = AsrLibrary.TranslateFun.GetTranslate();
+            _trans = AsrProxy.TranslateFun.GetTranslate();
 
-            LoadInfo();
             cmbTo.SelectedIndex = 0;
+        }
+
+        public void Load()
+        {
+            LoadInfo();
         }
 
         private void btnTranslate_Click(object sender, EventArgs e)

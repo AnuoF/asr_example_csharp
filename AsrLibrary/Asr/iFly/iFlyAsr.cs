@@ -4,16 +4,16 @@
  *
  * 描    述：   讯飞语音识别类
  * 
- * 作    者:    Anuo
+ * 作    者:    Anuo.
  *	
  * 创作日期:    2019-2-28
  *
- * 备    注:	已集成英语、普通话、粤语和四川话的识别，由于其他语种的字符没有在官网上查询到，
- *              如果需要集成进来，则要询问讯飞的技术人员。
+ * 备    注:	已集成英语、普通话、粤语、四川话和武汉话的识别，由于其他语种的字符没有在官网上
+ *              查询到，如果需要集成进来，则要询问讯飞的技术人员。
  *                                        
 *********************************************************************************************/
 
-using AsrLibrary.Entity;
+using AsrCommon.Entity;
 using System;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -26,7 +26,7 @@ namespace AsrLibrary.Asr.iFly
     /// <summary>
     /// 讯飞语音识别类
     /// </summary>
-    internal class iFlyAsr : AsrBase
+    internal class iFlyAsr : AsrBase, IDisposable
     {
         /// <summary>
         /// 单例对象
@@ -89,6 +89,21 @@ namespace AsrLibrary.Asr.iFly
             SessionEnd(sessionId);
 
             return ret;
+        }
+
+        /// <summary>
+        /// 释放资源
+        /// </summary>
+        public void Dispose()
+        {
+            try
+            {
+                int ret = msc_api.MSPLogout();
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Trace.WriteLine(ex.Message);
+            }
         }
 
         /// <summary>
@@ -343,6 +358,5 @@ namespace AsrLibrary.Asr.iFly
 
             return sessionBeginParams;
         }
-
     }
 }

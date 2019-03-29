@@ -32,7 +32,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Bin\</OutputPath>
+    <OutputPath>..\Bin\TestApp\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -118,12 +118,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AsrLibrary\AsrLibrary.csproj">
-      <Project>{0aabee12-ccc8-40f8-b367-5277ab7e1612}</Project>
-      <Name>AsrLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
@@ -139,6 +133,25 @@
       <ProductName>Windows Installer 4.5</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Audio.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AsrCommon\AsrCommon.csproj">
+      <Project>{b437c37c-cb73-4196-a73b-3ef14e80f96e}</Project>
+      <Name>AsrCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AsrLibrary\AsrLibrary.csproj">
+      <Project>{0aabee12-ccc8-40f8-b367-5277ab7e1612}</Project>
+      <Name>AsrLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AsrProxy\AsrProxy.csproj">
+      <Project>{04c5a9c2-fdf0-413d-98a2-c8f52c0d02e9}</Project>
+      <Name>AsrProxy</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

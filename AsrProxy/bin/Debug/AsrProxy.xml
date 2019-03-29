@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <proxy>
+    <ip note="AsrService IP地址">127.0.0.1</ip>
+    <port note="AsrService 端口">8888</port>
+  </proxy>
+
+</configuration>

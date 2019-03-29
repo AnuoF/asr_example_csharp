@@ -1,0 +1,8 @@
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrProxy\bin\Debug\AsrProxy.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrProxy\bin\Debug\AsrProxy.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrProxy\obj\Debug\AsrProxy.csprojResolveAssemblyReference.cache
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrProxy\obj\Debug\AsrProxy.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrProxy\obj\Debug\AsrProxy.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrProxy\bin\Debug\AsrCommon.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrProxy\bin\Debug\AsrCommon.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrProxy\bin\Debug\AsrProxy.xml

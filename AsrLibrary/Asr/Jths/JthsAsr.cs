@@ -4,7 +4,7 @@
  *
  * 描    述：   捷通华声语音识别类
  * 
- * 作    者:    Anuo
+ * 作    者:    Anuo.
  *	
  * 创作日期:    2019-2-28
  *
@@ -12,7 +12,7 @@
  *                                        
 *********************************************************************************************/
 
-using AsrLibrary.Entity;
+using AsrCommon.Entity;
 using System;
 using System.Collections.Generic;
 using System.IO;

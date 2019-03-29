@@ -13,6 +13,7 @@
  *                                        
 *********************************************************************************************/
 
+using AsrCommon.Entity;
 using AsrLibrary.Entity;
 using System;
 using System.Diagnostics;

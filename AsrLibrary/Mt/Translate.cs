@@ -12,7 +12,8 @@
  *                                        
 *********************************************************************************************/
 
-using AsrLibrary.Entity;
+using AsrCommon.Entity;
+using AsrCommon.Mt;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -42,14 +43,41 @@ namespace AsrLibrary.Mt
         private NiuTrans _niu = null;
 
         /// <summary>
+        /// 单例
+        /// </summary>
+        private static Translate _instance = null;
+
+        /// <summary>
+        /// 单例锁
+        /// </summary>
+        private static object _lockTrans = new object();
+
+        /// <summary>
         /// 构造函数
         /// </summary>
-        public Translate()
+        private Translate()
         {
             LoadLanagueFromConfig();
             _jths = new JthsTrans();
             _mzywfy = new MzywfyTrans();
             _niu = new NiuTrans();
+        }
+
+        /// <summary>
+        /// 获取单例
+        /// </summary>
+        /// <returns></returns>
+        public static Translate GetInstance()
+        {
+            if (_instance == null)
+            {
+                lock (_lockTrans)
+                {
+                    _instance = new Translate();
+                }
+            }
+
+            return _instance;
         }
 
         /// <summary>

@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Bin\</OutputPath>
+    <OutputPath>bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -42,6 +42,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,17 +54,12 @@
     <Compile Include="Asr\Asr.cs" />
     <Compile Include="Asr\AsrBase.cs" />
     <Compile Include="Asr\Baidu\BaiduAsr.cs" />
-    <Compile Include="Asr\IAsr.cs" />
     <Compile Include="Asr\iFly\iFlyAsr.cs" />
     <Compile Include="Asr\iFly\msc_api.cs" />
     <Compile Include="Asr\Jths\hci_api.cs" />
     <Compile Include="Asr\Jths\JthsAsr.cs" />
-    <Compile Include="Entity\Language.cs" />
-    <Compile Include="Entity\SdkType.cs" />
-    <Compile Include="Entity\LanguageType.cs" />
     <Compile Include="Entity\MD5Helper.cs" />
     <Compile Include="Entity\Utils.cs" />
-    <Compile Include="Mt\ITranslate.cs" />
     <Compile Include="Mt\TranslateFun.cs" />
     <Compile Include="Mt\Trans\JthsTrans.cs" />
     <Compile Include="Mt\Trans\MZYWFY_API.cs" />
@@ -120,6 +116,12 @@
     <Content Include="AsrSdk\Jths\libhci_curl.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AsrCommon\AsrCommon.csproj">
+      <Project>{b437c37c-cb73-4196-a73b-3ef14e80f96e}</Project>
+      <Name>AsrCommon</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
