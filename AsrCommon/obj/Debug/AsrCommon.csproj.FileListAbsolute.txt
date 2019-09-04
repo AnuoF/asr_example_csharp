@@ -1,4 +1,0 @@
-F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrCommon\bin\Debug\AsrCommon.dll
-F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrCommon\bin\Debug\AsrCommon.pdb
-F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrCommon\obj\Debug\AsrCommon.dll
-F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\AsrCommon\obj\Debug\AsrCommon.pdb
