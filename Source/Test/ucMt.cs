@@ -1,5 +1,5 @@
-﻿using AsrLibrary;
-using AsrLibrary.Entity;
+﻿using Asr.Client;
+using Asr.Public;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -8,14 +8,13 @@ namespace Test
 {
     public partial class ucMt : UserControl
     {
-        private ITranslate _trans = null;
+        private AsrClient _client = null;
 
-        public ucMt()
+        public ucMt(AsrClient client)
         {
             InitializeComponent();
 
-            // 1) 获取 ITranslate 翻译功能接口
-            _trans = AsrLibrary.TranslateFun.GetTranslate();
+            _client = client;
 
             cmbTo.SelectedIndex = 0;
         }
@@ -28,11 +27,11 @@ namespace Test
             string from = cmbFrom.Text;
             if (string.IsNullOrEmpty(from)) return;
 
-            LanguageType languageType = AsrLibrary.Utils.Text2LanguageType(from);
+            LanguageType languageType = _client.IAsr.Text2LanguageType(from);
             string result = string.Empty;
 
             // 2）翻译
-            bool ret = _trans.Trans(text, languageType, out result);
+            bool ret = _client.ITranslate.Trans(text, languageType, out result);
             if (ret)
             {
                 txtResult.Text = result;
@@ -56,7 +55,7 @@ namespace Test
             else
             {
                 cmbFrom.Items.Clear();
-                List<Language> list = _trans.GetTransLanguages();
+                List<Language> list = _client.ITranslate.GetTransLanguages();
 
                 if (list != null && list.Count > 0)
                 {

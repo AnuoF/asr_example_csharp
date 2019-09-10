@@ -1,0 +1,5 @@
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\bin\Debug\AsrClient.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\bin\Debug\AsrClient.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\obj\Debug\AsrClient.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\obj\Debug\AsrClient.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\obj\Debug\AsrClient.csprojResolveAssemblyReference.cache

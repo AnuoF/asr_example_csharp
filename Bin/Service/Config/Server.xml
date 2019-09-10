@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <serviceinfo>
+    <ip>0.0.0.0</ip>
+    <port>8888</port>
+  </serviceinfo>
+</config>

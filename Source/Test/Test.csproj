@@ -67,23 +67,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ucAsr.cs">
+    <Compile Include="ucAsrClient.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucAsr.Designer.cs">
-      <DependentUpon>ucAsr.cs</DependentUpon>
+    <Compile Include="ucAsrClient.Designer.cs">
+      <DependentUpon>ucAsrClient.cs</DependentUpon>
     </Compile>
     <Compile Include="ucMt.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucMt.Designer.cs">
       <DependentUpon>ucMt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ucTts.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ucTts.Designer.cs">
-      <DependentUpon>ucTts.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -97,20 +91,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ucAsr.resx">
-      <DependentUpon>ucAsr.cs</DependentUpon>
+    <EmbeddedResource Include="ucAsrClient.resx">
+      <DependentUpon>ucAsrClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucMt.resx">
       <DependentUpon>ucMt.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucTts.resx">
-      <DependentUpon>ucTts.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="App.config" />
-    <None Include="AsrLibrary.config">
-      <SubType>Designer</SubType>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -144,9 +131,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AsrLibrary\AsrLibrary.csproj">
-      <Project>{0aabee12-ccc8-40f8-b367-5277ab7e1612}</Project>
-      <Name>AsrLibrary</Name>
+    <ProjectReference Include="..\Asr.Client\Asr.Client.csproj">
+      <Project>{eb346454-dbbd-4e3c-810b-bfd784089240}</Project>
+      <Name>Asr.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Asr.Public\Asr.Public.csproj">
+      <Project>{92c83f34-ad55-4e9f-ac89-adc190cab042}</Project>
+      <Name>Asr.Public</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

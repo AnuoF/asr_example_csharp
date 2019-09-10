@@ -5,9 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{8D6AE168-1E6F-48EF-93B3-7673B777ADD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsrLibrary", "AsrLibrary\AsrLibrary.csproj", "{0AABEE12-CCC8-40F8-B367-5277AB7E1612}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asr.Public", "Asr.Public\Asr.Public.csproj", "{92C83F34-AD55-4E9F-AC89-ADC190CAB042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsrServer", "AsrServer\AsrServer.csproj", "{87D3EBDE-D1A4-41BA-B2A3-57C054FE87CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asr.Client", "Asr.Client\Asr.Client.csproj", "{EB346454-DBBD-4E3C-810B-BFD784089240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asr.Core", "Asr.Core\Asr.Core.csproj", "{0AABEE12-CCC8-40F8-B367-5277AB7E1612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asr.Server", "Asr.Server\Asr.Server.csproj", "{87D3EBDE-D1A4-41BA-B2A3-57C054FE87CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,14 @@ Global
 		{8D6AE168-1E6F-48EF-93B3-7673B777ADD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D6AE168-1E6F-48EF-93B3-7673B777ADD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D6AE168-1E6F-48EF-93B3-7673B777ADD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C83F34-AD55-4E9F-AC89-ADC190CAB042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C83F34-AD55-4E9F-AC89-ADC190CAB042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C83F34-AD55-4E9F-AC89-ADC190CAB042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C83F34-AD55-4E9F-AC89-ADC190CAB042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB346454-DBBD-4E3C-810B-BFD784089240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB346454-DBBD-4E3C-810B-BFD784089240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB346454-DBBD-4E3C-810B-BFD784089240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB346454-DBBD-4E3C-810B-BFD784089240}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0AABEE12-CCC8-40F8-B367-5277AB7E1612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0AABEE12-CCC8-40F8-B367-5277AB7E1612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AABEE12-CCC8-40F8-B367-5277AB7E1612}.Release|Any CPU.ActiveCfg = Release|Any CPU

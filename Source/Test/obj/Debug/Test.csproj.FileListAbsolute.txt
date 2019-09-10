@@ -1,0 +1,12 @@
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Bin\TestApp\Audio.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Bin\TestApp\Test.exe.config
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Bin\TestApp\Test.exe
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Bin\TestApp\Test.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Test\obj\Debug\Test.Form1.resources
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Test\obj\Debug\Test.Properties.Resources.resources
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Test\obj\Debug\Test.ucAsrClient.resources
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Test\obj\Debug\Test.exe
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Test\obj\Debug\Test.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Test\obj\Debug\Test.ucMt.resources

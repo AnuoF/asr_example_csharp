@@ -1,0 +1,4 @@
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Public\bin\Debug\Asr.Public.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Public\bin\Debug\Asr.Public.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Public\obj\Debug\Asr.Public.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Public\obj\Debug\Asr.Public.pdb

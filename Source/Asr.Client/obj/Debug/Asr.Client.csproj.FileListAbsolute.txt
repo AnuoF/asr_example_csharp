@@ -1,0 +1,12 @@
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\bin\Debug\Asr.Client.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\bin\Debug\Asr.Client.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\obj\Debug\Asr.Client.csprojResolveAssemblyReference.cache
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\obj\Debug\Asr.Client.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\AsrClient\obj\Debug\Asr.Client.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Client\obj\Debug\Asr.Client.csprojResolveAssemblyReference.cache
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Client\obj\Debug\Asr.Client.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Client\obj\Debug\Asr.Client.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Client\bin\Debug\Asr.Client.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Client\bin\Debug\Asr.Client.pdb
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Client\bin\Debug\Asr.Public.dll
+F:\Work\V10\trunk\Client\Source\DCComponent\Commons\AsrLibrary\Source\Asr.Client\bin\Debug\Asr.Public.pdb
